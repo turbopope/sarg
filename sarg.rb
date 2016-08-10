@@ -1,3 +1,10 @@
+def generate_random_number
+  sleep(1)
+  return Random.rand(100).to_s
+end
+
+
+
 last_call = current_time_millis
 
 get "/random" do
